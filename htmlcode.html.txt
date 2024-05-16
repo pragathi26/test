@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website with Header Band, Image, and Login/Registration</title>
+<style>
+  header {
+    background-color: #4CAF50;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  .image-container {
+    position: relative;
+    text-align: center;
+  }
+  .login-registration {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 30px;
+    border-radius: 5px;
+  }
+  nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  nav a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  .intro {
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Welcome to Our Cloud Computing Website</h1>
+</header>
+<nav>
+ 
+  <a href= "https://en.wikipedia.org/wiki/Cloud_computing">Home</a> | 
+  <a href= "https://cio-wiki.org/wiki/Cloud_Computing">About</a> | 
+  <a href= "https://cio-wiki.org/wiki/Cloud_Computing">Services</a> | 
+  <a href= "https://aws.amazon.com/connect/">Contact</a>
+</nav>
+<div class="image-container">
+  <img src="C:\Users\Student\Desktop\1702881840774.jpg" alt="Cloud Computing" style="width: 100%;">
+  <div class="login-registration">
+    <h2>Login / Register</h2>
+    <p>Explore the power of cloud computing with us!</p>
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username"><br><br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password"><br><br>
+      <input type="submit" value="Login" style="padding: 10px 20px; font-size: 16px;">
+      <input type="submit" value="Register" style="padding: 10px 20px; font-size: 16px;">
+    </form>
+  </div>
+  <div class="intro">
+    <p>Welcome to our cloud computing website! Discover the benefits of cloud technology and how it can transform your business.</p>
+  </div>
+</div>
+<main>
+  <!-- Your main content here -->
+</main>
+<footer>
+  <p>&copy; 2024 Cloud Computing Website. All rights reserved.</p>
+</footer>
+</body>
+</html>
